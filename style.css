@@ -234,6 +234,17 @@ h3 {
   letter-spacing: -0.12em;
 }
 
+.portrait-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 34%;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  margin-bottom: 1.5rem;
+}
+
 dl {
   margin: 1.2rem 0 0;
 }
